@@ -102,12 +102,6 @@ def process_users():
             # Email body (HTML format)
             body = f"""
             <p>Dear User {name},<br></p>
-            <p><strong>Polish:</strong><br>
-            Uprzejmie przypominamy, że za {message_days} wygaśnie Twoje hasło. Pamiętaj, aby je zmienić.<br>
-            Jeśli potrzebujesz pomocy możesz:<br>
-                - skorzystać z artykułu pomocy technicznej dostępnego tutaj: <a href='https://link/to/article/'>Jak zmienić hasło?</a><br>
-                - skontaktować się z Helpdeskiem IT: <a href='mailto:helpdesk@example.com'>helpdesk@example.com</a><br>
-            </p>
             <p><strong>English:</strong><br>
             We kindly inform you that your password will expire {message_days}. Please remember to change it.<br>
             If you need help:<br>
